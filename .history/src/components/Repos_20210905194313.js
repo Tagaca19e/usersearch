@@ -67,7 +67,7 @@ const Repos = () => {
         <Doughnut2D data={mostUsed}></Doughnut2D>
         <Column3D data={stars}></Column3D>
         <Doughnut2D data={mostPopular}></Doughnut2D>
-        <Bar3D data={forks}></Bar3D>
+        <Bar2D data={forks}></Bar2D>
       </Wrapper>
     </section>
   );
