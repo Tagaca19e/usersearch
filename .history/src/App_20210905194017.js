@@ -48,9 +48,6 @@ function App() {
         <Route path="/" exact={true}>
           <Dashboard toggleTheme={toggleTheme}></Dashboard>
         </Route>
-        <Route path="*">
-          <Dashboard />
-        </Route>
       </Switch>
     </Router>
   );
