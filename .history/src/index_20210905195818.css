@@ -93,16 +93,6 @@ img {
   width: 100%;
   display: block;
 }
-.clip {
-  position: fixed;
-  color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transform: -webkit-translate(-50%, -50%);
-  transform: -moz-translate(-50%, -50%);
-  transform: -ms-translate(-50%, -50%);
-}
 
 h1,
 h2,

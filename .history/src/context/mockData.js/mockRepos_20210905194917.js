@@ -9,14 +9,13 @@ const mockRepos = [
       login: "thilak009",
       id: 56732160,
       node_id: "MDQ6VXNlcjU2NzMyMTYw",
-      avatar_url:
-        "https://avatars.githubusercontent.com/u/85138779?s=400&u=1670811a1d305a0d675464d0a960a304ab35d3ec&v=4",
+      avatar_url: "https://avatars3.githubusercontent.com/u/56732160?v=4",
       gravatar_id: "",
-      url: "https://api.github.com/users/tagaca19e",
-      html_url: "https://github.com/tagaca19e",
+      url: "https://api.github.com/users/thilak009",
+      html_url: "https://github.com/thilak009",
       followers_url: "https://api.github.com/users/thilak009/followers",
       following_url:
-        "https://api.github.com/users/tagaca19e/following{/other_user}",
+        "https://api.github.com/users/thilak009/following{/other_user}",
       gists_url: "https://api.github.com/users/thilak009/gists{/gist_id}",
       starred_url:
         "https://api.github.com/users/thilak009/starred{/owner}{/repo}",

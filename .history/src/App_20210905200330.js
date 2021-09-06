@@ -62,7 +62,7 @@ function App() {
             width={22}
             radius={10}
             margin={35}
-            size={15}
+            size={30}
           />
         </div>
       ) : (

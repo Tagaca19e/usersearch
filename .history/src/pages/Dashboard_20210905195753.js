@@ -6,7 +6,13 @@ import { GithubContext } from "../context/context";
 const Dashboard = ({ toggleTheme }) => {
   const { isLoading } = React.useContext(GithubContext);
   if (isLoading) {
-    return <main></main>;
+    return (
+      <main>
+        <Navbar toggleTheme={toggleTheme} />
+        <Search />
+        <img src={loadingImage} className="loading-img" alt="loading"></img>
+      </main>
+    );
   }
   return (
     <main>
